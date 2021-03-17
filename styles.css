@@ -1,0 +1,50 @@
+body {
+	background-color: beige;
+	text-align: center;
+}
+
+/* ------------------------------------------ 
+ TODAS LAS REGLAS A CONTINUACIÓN SON DE BOX
+---------------------------------------------*/
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+}
+
+.blue {
+	background-color: cornflowerblue;
+	font-family: 'Aguafina Script';
+	font-size: 22px;
+}
+
+.salmon {
+	background-color: darksalmon;
+	font-family: 'Alex Brush';
+	font-size: 22px;
+}
+
+.purple {
+	background-color: plum;
+	font-family: 'Annie Use Your Telescope';
+	font-size: 22px;
+}
+
+.brown {
+	background-color: rosybrown;
+	font-family: 'Architects Daughter', sans-serif;
+	font-size: 22px;
+}
+
+/*------------------------------------
+					FIN 
+	----------------------------------*/
+
+img {
+	width: 75%;
+}
